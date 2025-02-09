@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\ProblemaRainhas\bin\Debug\net8.0\ProblemaRainhas.exe
+C:\Users\User\source\repos\ProblemaRainhas\bin\Debug\net8.0\ProblemaRainhas.deps.json
+C:\Users\User\source\repos\ProblemaRainhas\bin\Debug\net8.0\ProblemaRainhas.runtimeconfig.json
+C:\Users\User\source\repos\ProblemaRainhas\bin\Debug\net8.0\ProblemaRainhas.dll
+C:\Users\User\source\repos\ProblemaRainhas\bin\Debug\net8.0\ProblemaRainhas.pdb
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.AssemblyInfo.cs
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.sourcelink.json
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.dll
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\refint\ProblemaRainhas.dll
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.pdb
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ProblemaRainhas.genruntimeconfig.cache
+C:\Users\User\source\repos\ProblemaRainhas\obj\Debug\net8.0\ref\ProblemaRainhas.dll
