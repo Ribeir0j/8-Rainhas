@@ -1,15 +1,15 @@
-﻿using System;
-using System.Security.Cryptography;
+using System;
 
-class Program {
+class Program
+{
 
     static int[,] matriz = new int[8, 8];
     static Random random = new Random();
 
     static void Main()
     {
-            ColocarRainhas(matriz);
-        
+        ColocarRainhas(matriz);
+
     }
     static bool VerificarDiagonais(int[,] matriz)
     {
@@ -23,9 +23,9 @@ class Program {
                     {
                         for (int c2 = 0; c2 < 8; c2++)
                         {
-                            if (matriz[l2,c2] == 1)
+                            if (matriz[l2, c2] == 1)
                             {
-                                if(l + c == l2 + c2 || l - c == l2 - c2)
+                                if (l + c == l2 + c2 || l - c == l2 - c2)
                                 {
                                     return true;
                                 }
@@ -38,7 +38,7 @@ class Program {
         return false; //não há rainhas em diagonais
     }
 
-    static bool PosicaoValida(int[,] matriz) 
+    static bool PosicaoValida(int[,] matriz)
     {
         if (!VerificarColunas(matriz) && !VerificarDiagonais(matriz))
         {
@@ -85,20 +85,20 @@ class Program {
         while (!posicaoCorreta)
         {
             LimparMatriz(matriz);
-            
+
             for (int l = 0; l < 8; l++)
             {
                 int posicaoRainha = random.Next(0, 8);
-                matriz[l, posicaoRainha] = 1; 
+                matriz[l, posicaoRainha] = 1;
             }
 
             if (!VerificarColunas(matriz) && !VerificarDiagonais(matriz))
             {
-                posicaoCorreta = true; 
+                posicaoCorreta = true;
             }
         }
 
-        
+
         ExibirMatriz(matriz);
     }
     static void ExibirMatriz(int[,] matriz)
@@ -109,8 +109,7 @@ class Program {
             {
                 Console.Write(matriz[l, c] + " ");
             }
-                Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
-    
